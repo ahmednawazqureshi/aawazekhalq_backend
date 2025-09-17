@@ -9,7 +9,7 @@ const bcrypt = require('bcryptjs');
 const app = express();
 
 // Middleware
-app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') || '*' }));
+app.use(cors({ origin: "https://aawazekhalq-frontend.vercel.app/" }));
 app.use(express.json());
 
 // Connect DB
